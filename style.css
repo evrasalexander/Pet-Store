@@ -1,0 +1,50 @@
+@media screen and (min-width:578px) and (max-width: 1920px){
+    #heading{
+        background-image: url(./images/pet/CFHS-Animal-Banner.jpg);
+        background-size: 100%  cover;
+        background-repeat: no-repeat;
+        height: 125px;
+        background-position: center;
+        background-color: rgb(255, 255, 255);
+    }
+      }
+    .wrapper{
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      nav{
+        background: rgba(0, 183, 255, 0.774);
+      }
+      nav ul{
+        list-style-type: none;
+        padding: 0;
+    
+      }
+      nav a{
+        text-decoration: none;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        display: block;
+        padding: 10px;
+      }
+      nav a:hover{
+        background-color: rgb(174, 160, 255);
+        width: auto;
+        color: white;
+      }
+      nav ul{
+        display: flex;
+      }
+      
+      nav li{
+        flex: 1 1 0;
+      }
+      nav{
+        display: center;
+        justify-content: space-between;
+      }
+      .body-bg-color{
+        background: rgb(255, 255, 255);
+      }
+
