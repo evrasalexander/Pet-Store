@@ -1,9 +1,9 @@
 @media screen and (min-width:578px) and (max-width: 1920px){
     #heading{
-        background-image: url(./images/pet/CFHS-Animal-Banner.jpg);
+        background-image: url(./images/theme.png);
         background-size: 100%  cover;
         background-repeat: no-repeat;
-        height: 125px;
+        height: 160px;
         background-position: center;
         background-color: rgb(255, 255, 255);
     }
