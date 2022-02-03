@@ -1,4 +1,5 @@
 @media screen and (min-width:578px) and (max-width: 1920px){
+
     #heading{
         background-image: url(./images/theme.png);
         background-size: 100%  cover;
@@ -7,44 +8,205 @@
         background-position: center;
         background-color: rgb(255, 255, 255);
     }
-      }
+
     .wrapper{
         width: 100%;
         max-width: 100%;
         margin: 0 auto;
-      }
-      nav{
+    }
+
+    nav{
         background: rgba(0, 183, 255, 0.774);
-      }
-      nav ul{
+    }
+
+    nav ul{
         list-style-type: none;
         padding: 0;
     
-      }
-      nav a{
+    }
+
+    nav a{
         text-decoration: none;
         text-align: center;
         color: rgb(255, 255, 255);
         display: block;
         padding: 10px;
-      }
-      nav a:hover{
+    }
+
+    nav a:hover{
         background-color: rgb(174, 160, 255);
         width: auto;
         color: white;
-      }
-      nav ul{
+    }
+
+    nav ul{
         display: flex;
-      }
+        width: 100%;
+    }
       
-      nav li{
+    nav li{
         flex: 1 1 0;
-      }
-      nav{
+    }
+
+    nav{
         display: center;
         justify-content: space-between;
-      }
-      .body-bg-color{
+    }
+
+    .body-bg-color{
         background: rgb(255, 255, 255);
-      }
+    }
+
+    .slide-show-render-full .slide-image {
+    
+        max-height: 420px;
+        max-width: 800px;
+       text-align: center;
+    }
+        
+    .slide-show-render-full .slide-content {
+        height: 420px;
+        width: 800px;
+        text-align: center;
+    }
+        
+    .slide-show-render .slides {
+        height: 500px;
+        text-align: center;
+    }
+        
+    .slide-show-render.slide-show {
+        height: 420px;
+        text-align: center;
+       
+    }
+        
+    .slide-show {
+        width: 1000px;
+        text-align: center;
+    }
+
+    .carousel-control-prev{
+          background: none
+    }
+
+    .carousel-control-next{
+        background: none
+    }
+
+    @keyframes background-color{
+      100% {
+     background-color:rgba(174, 160, 255);
+       }
+
+  }
+
+}
+
+@media screen and (min-width: 280px) and (max-width: 577px){
+
+    #heading{
+      background-image: url(./images/theme.png);
+      background-size: 100%  cover;
+      background-repeat: no-repeat;
+      height: 160px;
+      background-position: center;
+      background-color: rgb(255, 255, 255);
+  }
+
+  .wrapper{
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+  }
+
+  nav{
+      background: rgba(0, 183, 255, 0.774);
+  }
+
+  nav ul{
+      list-style-type: none;
+      padding: 0;
+  
+  }
+
+  nav a{
+      text-decoration: none;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      display: block;
+      padding: 10px;
+  }
+
+  nav a:hover{
+      background-color: rgb(174, 160, 255);
+      width: auto;
+      color: white;
+  }
+
+  nav ul{
+      display: flex;
+      width: 100%;
+  }
+    
+  nav li{
+      flex: 1 1 0;
+  }
+
+  nav{
+      display: center;
+      justify-content: space-between;
+  }
+
+  .body-bg-color{
+      background: rgb(255, 255, 255);
+  }
+
+  .slide-show-render-full .slide-image {
+  
+      max-height: 420px;
+      max-width: 800px;
+     text-align: center;
+  }
+      
+  .slide-show-render-full .slide-content {
+      height: 420px;
+      width: 800px;
+      text-align: center;
+  }
+      
+  .slide-show-render .slides {
+      height: 500px;
+      text-align: center;
+  }
+      
+  .slide-show-render.slide-show {
+      height: 420px;
+      text-align: center;
+     
+  }
+      
+  .slide-show {
+      width: 1000px;
+      text-align: center;
+  }
+
+  .carousel-control-prev{
+        background: none
+  }
+
+  .carousel-control-next{
+      background: none
+  }
+
+  @keyframes background-color{
+    100% {
+   background-color:rgba(174, 160, 255);
+     }
+
+}
+
+}
+
+
 
