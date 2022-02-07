@@ -2,6 +2,7 @@
 
     #heading{
         background-image: url(./images/theme.png);
+        max-width: 100%;
         background-size: 100%  cover;
         background-repeat: no-repeat;
         height: 160px;
@@ -87,11 +88,37 @@
     }
 
     .carousel-control-prev{
-          background: none
+          background: rgba(0, 183, 255, 0.774);
+        max-width: 100px;
+        
     }
 
     .carousel-control-next{
-        background: none
+        background: rgba(0, 183, 255, 0.774);
+        max-width: 100px;
+    }
+
+    .pet-Icon{
+    justify-content: space-between;
+    border-radius: 100px;
+    min-height: 200px;
+    max-width: 200px;
+    padding: 35px;
+    }
+
+    .center-Icons{
+        margin-left: 475px;
+        margin-top: 100px;
+    }
+
+    .footer-color{
+        background-color: rgba(0, 183, 255, 0.774);
+        max-width: 100%;
+        min-height: 175px;
+    }
+
+    .footer-space{
+        justify-content: space-between;
     }
 
     @keyframes background-color{
@@ -164,40 +191,67 @@
 
   .slide-show-render-full .slide-image {
   
-      max-height: 420px;
-      max-width: 800px;
+      max-height: 55%;
+      max-width: 80%;
      text-align: center;
   }
       
   .slide-show-render-full .slide-content {
-      height: 420px;
-      width: 800px;
+      height: 55%;
+      width: 80%;
       text-align: center;
   }
       
   .slide-show-render .slides {
-      height: 500px;
+      height: 55%;
+      max-width: 80%;
       text-align: center;
   }
       
   .slide-show-render.slide-show {
-      height: 420px;
+      height: 55%;
+      max-width: 80%;
       text-align: center;
      
   }
       
   .slide-show {
-      width: 1000px;
+      width: 85%; 
+      max-height: 55%;
       text-align: center;
+     
   }
 
   .carousel-control-prev{
-        background: none
-  }
+    background: rgba(0, 183, 255, 0.774);
+  max-width: 100px;
+  
+}
 
-  .carousel-control-next{
-      background: none
-  }
+.carousel-control-next{
+  background: rgba(0, 183, 255, 0.774);
+  max-width: 100px;
+}
+
+.pet-Icon{
+border-radius: 50%;
+border-color: black;
+border-width: 25px;
+min-height: 65px;
+max-width: 65px;
+padding: 15%;
+margin-left: 65%;
+   }
+
+.footer-color{
+    background-color: rgba(0, 183, 255, 0.774);
+    max-width: 100%;
+}
+
+.footer-space{
+    justify-content: space-between;
+}
+
 
   @keyframes background-color{
     100% {
