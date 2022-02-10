@@ -120,6 +120,15 @@
         max-width: 100px;
     }
 
+    .carousel-item {
+        height: 500px;
+        overflow: hidden;
+        width: 100%;
+        }
+    .carousel-item img {
+        width: 100%;
+        }
+
     .pet-Icon{
     border-radius: 50%;
     min-height: 200px;
@@ -205,10 +214,9 @@
 }
 
 #footer{
-    position: bottom;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    margin-top: 160px;
     height: 70px;
 }
 nav{
@@ -296,6 +304,15 @@ max-width: 100px;
   max-width: 100px;
 }
 
+.carousel-item {
+    height: 165px;
+    overflow: hidden;
+    width: 100%;
+    }
+.carousel-item img {
+    width: 100%;
+    }
+
 .pet-Icon{
 border-radius: 50%;
 border-color: black;
@@ -322,7 +339,7 @@ margin-left: 65%;
 
 .about-text{
     font-size: 20px;
-    margin-bottom: 55px;
+    margin-bottom: 95px;
     margin-top: 25px;
 }
 
@@ -337,6 +354,10 @@ button:hover{
     animation-duration: 500ms;
     animation-fill-mode: forwards;
     }
+
+.contact-email-marg{
+    margin-bottom: 55px;
+}
 
   @keyframes background-color{
     100% {
