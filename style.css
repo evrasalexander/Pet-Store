@@ -370,3 +370,7 @@ button:hover{
 
 
 
+#market{
+    display: flex;
+    flex-wrap: wrap;
+}
