@@ -170,6 +170,11 @@
         animation-fill-mode: forwards;
         }
 
+        #cowmarket{
+            flex-wrap: wrap;
+            padding: 15px;
+        }
+
         @keyframes background-color{
             100% {
            background-color:rgba(174, 160, 255);
@@ -359,6 +364,14 @@ button:hover{
     margin-bottom: 55px;
 }
 
+#cowmarket{
+    flex-wrap: wrap;
+    padding: 15px;
+    
+}
+
+
+
   @keyframes background-color{
     100% {
    background-color:rgba(174, 160, 255);
@@ -370,7 +383,3 @@ button:hover{
 
 
 
-#market{
-    display: flex;
-    flex-wrap: wrap;
-}
