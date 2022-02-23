@@ -1,33 +1,33 @@
 var reptileshop = [
     {
-      title: 'Foder',
-      image: './images/seed-grain.jpg',
-      price: '50.00$',
+      title: 'Reptile Food',
+      image: './images/reptile-food.jpg',
+      price: '35.00$',
       description: ''
     },
     
     {
-      title: 'Vitamins',
-      image: './images/Cow-vitamins.jpg',
-      price: '120.00$',
+      title: 'Reptile Vitamins',
+      image: './images/reptile-vitamins.jpg',
+      price: '60.00$',
       description: ''
     },
     {
-      title: 'Brush',
-      image: './images/Cow-Brush.jpg',
-      price: '750.00$',
+      title: 'Hot Lamps',
+      image: './images/hot-lamps.jpg',
+      price: '30.00$',
       description: ''
     },
     {
-      title: 'Halter',
-      image: './images/cow-halter.jpg',
+      title: 'Reptile Hut',
+      image: './images/reptile-hut.jpg',
       price: '10.00$',
       description: ''
     },
     {
-      title: 'Cattle Bells',
-      image: './images/cattle-bell.jpg',
-      price: '4.00$',
+      title: 'Reptile Water Dish',
+      image: './images/reptile-water.jpg',
+      price: '10.00$',
       description: ''
     },
   
@@ -38,11 +38,11 @@ var reptileshop = [
   
   
     for (var i=0; i < reptileshop.length; i++){
-        var heading = ' <div class="product ' + '"> <span><h5>' + reptileshop[i].title + '</h5>'
+        var heading = ' <div class="product store-padding' + '"> <span><h5>' + reptileshop[i].title + '</h5>'
 
-        var image = '<img class="img-fluid" src="' + reptileshop[i].image + '"/'
+        var image = '<img class="img-fluid store-image" src="' + reptileshop[i].image + '"/'
 
-        var price = '<p> $' + reptileshop[i].price + '</p></span>'
+        var price = '<p> ' + reptileshop[i].price + '</p></span>'
 
         var description = '<div class="">'+ reptileshop[i].description + '</p><button type="button" class="btn button-style text-white"> add to cart</button></div></div>'
 
