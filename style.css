@@ -329,16 +329,15 @@ max-width: 100px;
 
 .pet-Icon{
 border-radius: 50%;
-border-color: black;
-border-width: 25px;
-min-height: 65px;
-max-width: 65px;
-padding: 15%;
-margin-left: 65%;
+min-height: 50px;
+max-width: 50px;
+justify-content:space-between;
+margin-left: 25px;
+margin-bottom: 25px;
    }
 
 .pet-Icon-row2-margin{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .pet-Icon-row1-margin{
