@@ -42,7 +42,7 @@ var swineshop = [
 
         var image = '<img class="img-fluid store-image" src="' + swineshop[i].image + '"/'
 
-        var price = '<p> $' + swineshop[i].price + '</p></span>'
+        var price = '<p> ' + swineshop[i].price + '</p></span>'
 
         var description = '<div class="">'+ swineshop[i].description + '</p><button type="button" class="btn button-style text-white"> add to cart</button></div></div>'
 

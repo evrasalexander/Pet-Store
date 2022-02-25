@@ -42,7 +42,7 @@ var avesshop = [
 
         var image = '<img class="img-fluid store-image" src="' + avesshop[i].image + '"/'
 
-        var price = '<p> $' + avesshop[i].price + '</p></span>'
+        var price = '<p> ' + avesshop[i].price + '</p></span>'
 
         var description = '<div class="">'+ avesshop[i].description + '</p><button type="button" class="btn button-style text-white"> add to cart</button></div></div>'
 

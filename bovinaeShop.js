@@ -43,7 +43,7 @@ var bovinaeshop = [
 
         var image = '<img class="img-fluid store-image" src="' + bovinaeshop[i].image + '"/'
 
-        var price = '<p> $' + bovinaeshop[i].price + '</p></span>'
+        var price = '<p> ' + bovinaeshop[i].price + '</p></span>'
 
         var description = '<div class="">'+ bovinaeshop[i].description + '</p><button type="button" class="btn button-style text-white"> add to cart</button></div></div>'
 

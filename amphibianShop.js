@@ -42,7 +42,7 @@ var amphibianshop = [
 
         var image = '<img class="img-fluid store-image" src="' + amphibianshop[i].image + '"/'
 
-        var price = '<p> $' + amphibianshop[i].price + '</p></span>'
+        var price = '<p> ' + amphibianshop[i].price + '</p></span>'
 
         var description = '<div class="">'+ amphibianshop[i].description + '</p><button type="button" class="btn button-style text-white"> add to cart</button></div></div>'
 
