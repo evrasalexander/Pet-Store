@@ -1,33 +1,33 @@
 var amphibianshop = [
     {
-      title: 'Foder',
-      image: './images/seed-grain.jpg',
-      price: '50.00$',
+      title: 'Amphibian Food',
+      image: './images/amphibian-food.jpg',
+      price: '25.00$',
       description: ''
     },
     
     {
-      title: 'Vitamins',
-      image: './images/Cow-vitamins.jpg',
-      price: '120.00$',
+      title: 'Amphibian Vitamins',
+      image: './images/amphibian-vitamins.jpg',
+      price: '60.00$',
       description: ''
     },
     {
-      title: 'Brush',
-      image: './images/Cow-Brush.jpg',
-      price: '750.00$',
+      title: 'Aquarium',
+      image: './images/amphibian-aquarium.jpg',
+      price: '190.00$',
       description: ''
     },
     {
-      title: 'Halter',
-      image: './images/cow-halter.jpg',
+      title: 'Amphibian Hut',
+      image: './images/frog-house.jpg',
       price: '10.00$',
       description: ''
     },
     {
-      title: 'Cattle Bells',
-      image: './images/cattle-bell.jpg',
-      price: '4.00$',
+      title: 'Tetra: Whisper EX30 Water Filter',
+      image: './images/water-filter.jpg',
+      price: '30.00$',
       description: ''
     },
   
@@ -38,9 +38,9 @@ var amphibianshop = [
   
   
     for (var i=0; i < amphibianshop.length; i++){
-        var heading = ' <div class="product ' + '"> <span><h5>' + amphibianshop[i].title + '</h5>'
+        var heading = ' <div class="product store-padding' + '"> <span><h5>' + amphibianshop[i].title + '</h5>'
 
-        var image = '<img class="img-fluid" src="' + amphibianshop[i].image + '"/'
+        var image = '<img class="img-fluid store-image" src="' + amphibianshop[i].image + '"/'
 
         var price = '<p> $' + amphibianshop[i].price + '</p></span>'
 

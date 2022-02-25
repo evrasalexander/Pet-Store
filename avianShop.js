@@ -1,33 +1,33 @@
 var avianshop = [
     {
-      title: 'Foder',
-      image: './images/seed-grain.jpg',
-      price: '50.00$',
+      title: 'Avi-Cakes Bird Food',
+      image: './images/bird-food.jpg',
+      price: '25.00$',
       description: ''
     },
     
     {
-      title: 'Vitamins',
-      image: './images/Cow-vitamins.jpg',
-      price: '120.00$',
+      title: 'Oasis Parakeet Vitamins',
+      image: './images/bird-vitamins.jpg',
+      price: '25.00$',
       description: ''
     },
     {
-      title: 'Brush',
-      image: './images/Cow-Brush.jpg',
-      price: '750.00$',
+      title: 'Large Bird House',
+      image: './images/bird-cage.jpg',
+      price: '400.00$',
       description: ''
     },
     {
-      title: 'Halter',
-      image: './images/cow-halter.jpg',
+      title: 'jw Bird Toy',
+      image: './images/bird-toy.jpg',
       price: '10.00$',
       description: ''
     },
     {
-      title: 'Cattle Bells',
-      image: './images/cattle-bell.jpg',
-      price: '4.00$',
+      title: 'Bird Dish',
+      image: './images/bird-feeder.jpg',
+      price: '7.00$',
       description: ''
     },
   
@@ -38,9 +38,9 @@ var avianshop = [
   
   
     for (var i=0; i < avianshop.length; i++){
-        var heading = ' <div class="product ' + '"> <span><h5>' + avianshop[i].title + '</h5>'
+        var heading = ' <div class="product store-padding' + '"> <span><h5>' + avianshop[i].title + '</h5>'
 
-        var image = '<img class="img-fluid" src="' + avianshop[i].image + '"/'
+        var image = '<img class="img-fluid store-image" src="' + avianshop[i].image + '"/'
 
         var price = '<p> $' + avianshop[i].price + '</p></span>'
 

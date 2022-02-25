@@ -2,34 +2,34 @@
 
  var equineshop = [
     {
-      title: 'Foder',
-      image: './images/seed-grain.jpg',
-      price: '50.00$',
+      title: 'BuckEye Horse Feed',
+      image: './images/horse-food.jpg',
+      price: '65.00$',
       description: ''
     },
     
     {
-      title: 'Vitamins',
-      image: './images/Cow-vitamins.jpg',
-      price: '120.00$',
+      title: 'Farnam Horse Vitamins',
+      image: './images/horse-vitamins.jpg',
+      price: '80.00$',
       description: ''
     },
     {
-      title: 'Brush',
-      image: './images/Cow-Brush.jpg',
-      price: '750.00$',
+      title: 'Horse Brush',
+      image: './images/horse-Brush.jpg',
+      price: '7.00$',
       description: ''
     },
     {
-      title: 'Halter',
-      image: './images/cow-halter.jpg',
-      price: '10.00$',
+      title: 'Horse Bridal',
+      image: './images/horse-bridal.jpg',
+      price: '150.00$',
       description: ''
     },
     {
-      title: 'Cattle Bells',
-      image: './images/cattle-bell.jpg',
-      price: '4.00$',
+      title: 'English Horse Saddle',
+      image: './images/horse-saddle.jpg',
+      price: '400.00$',
       description: ''
     },
   
@@ -40,9 +40,9 @@
   
   
     for (var i=0; i < equineshop.length; i++){
-        var heading = ' <div class="product ' + '"> <span><h5>' + equineshop[i].title + '</h5>'
+        var heading = ' <div class="product store-padding' + '"> <span><h5>' + equineshop[i].title + '</h5>'
 
-        var image = '<img class="img-fluid" src="' + equineshop[i].image + '"/'
+        var image = '<img class="img-fluid store-image" src="' + equineshop[i].image + '"/'
 
         var price = '<p> $' + equineshop[i].price + '</p></span>'
 

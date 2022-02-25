@@ -1,4 +1,4 @@
-//Shop1
+
 var bovinaeshop = [
     {
       title: 'Foder',
@@ -39,9 +39,9 @@ var bovinaeshop = [
   
   
     for (var i=0; i < bovinaeshop.length; i++){
-        var heading = ' <div class="product ' + '"> <span><h5>' + bovinaeshop[i].title + '</h5>'
+        var heading = ' <div class="product store-padding' + '"> <span><h5>' + bovinaeshop[i].title + '</h5>'
 
-        var image = '<img class="img-fluid" src="' + bovinaeshop[i].image + '"/'
+        var image = '<img class="img-fluid store-image" src="' + bovinaeshop[i].image + '"/'
 
         var price = '<p> $' + bovinaeshop[i].price + '</p></span>'
 
